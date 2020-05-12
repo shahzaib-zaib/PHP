@@ -21,61 +21,29 @@
         </div>
         <div class="booking-form">
             <form id="booking-form">
-                <h2>Booking place for your dinner!</h2>
+                <h2>Welcome to Hotel Arina</h2>
                 <div class="form-group form-input">
                     <input type="text" name="name" id="name" value="" required/>
-                    <label for="name" class="form-label">Your name</label>
+                    <label for="name" class="form-label">Name</label>
+                </div>
+                <div class="form-group form-input">
+                    <input type="email" name="email" id="email" value="" required />
+                    <label for="email" class="form-label">Email</label>
                 </div>
                 <div class="form-group form-input">
                     <input type="number" name="phone" id="phone" value="" required />
-                    <label for="phone" class="form-label">Your phone number</label>
+                    <label for="phone" class="form-label">Phone</label>
                 </div>
-                <div class="form-group">
-                    <div class="select-list">
-                        <select name="time" id="time" required>
-                            <option value="">Time</option>
-                            <option value="6pm">6:00 PM</option>
-                            <option value="7pm">7:00 PM</option>
-                        </select>
-                    </div>
+                <div class="form-group form-input">
+                    <input type="text" name="address" id="address" value="" required />
+                    <label for="address" class="form-label">Address</label>
                 </div>
-                <div class="form-group">
-                    <div class="select-list">
-                        <select name="food" id="food" required>
-                            <option value="">Food</option>
-                            <option value="seasonalfish">Seasonal steamed fish</option>
-                            <option value="assortedmushrooms">Assorted mushrooms</option>
-                        </select>
-                    </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">I agree the terms & conditions</label>
                 </div>
-                <div class="form-radio">
-                    <label class="label-radio"> Select Your Dining Space</label>
-                    <div class="radio-item-list">
-                        <span class="radio-item">
-                            <input type="radio" name="number_people" value="2" id="number_people_2" />
-                            <label for="number_people_2">2</label>
-                        </span>
-                        <span class="radio-item active">
-                            <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
-                            <label for="number_people_4">4</label>
-                        </span>
-                        <span class="radio-item">
-                            <input type="radio" name="number_people" value="6" id="number_people_6" />
-                            <label for="number_people_6">6</label>
-                        </span>
-                        <span class="radio-item">
-                            <input type="radio" name="number_people" value="8" id="number_people_8" />
-                            <label for="number_people_8">8</label>
-                        </span>
-                        <span class="radio-item">
-                            <input type="radio" name="number_people" value="10" id="number_people_10" />
-                            <label for="number_people_10">10</label>
-                        </span>
-                    </div>
-                </div>
-
                 <div class="form-submit">
-                    <input type="submit" value="Book now" class="submit" id="submit" name="submit" />
+                    <input type="submit" value="Send Request" class="submit" id="submit" name="submit" />
                     <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
                 </div>
             </form>
