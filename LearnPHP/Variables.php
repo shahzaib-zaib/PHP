@@ -6,10 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-
-
     <?php
-        echo "Hello EveryOne";
+        $name = "Shahzaib <br>";
+        $num = 2358;
+        echo "<h1>" . $name . "</h1>";
+        echo "Hello How are you : " . $name;
+
+        echo $num;
+
+
     ?>
 </body>
 </html>
