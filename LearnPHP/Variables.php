@@ -13,8 +13,7 @@
         echo "Hello How are you : " . $name;
 
         echo $num;
-
-
+        
     ?>
 </body>
 </html>
